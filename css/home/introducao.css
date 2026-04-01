@@ -1,5 +1,5 @@
 .introducao-bg {
-  background: #ebebff;
+  background: var(--cor-0);
 }
 
 .introducao {
@@ -17,21 +17,11 @@
 }
 
 .introducao p {
-  font-size: 18px;
-  line-height: 1.33;
   margin-bottom: 8px;
-  text-transform: uppercase;
-  font-family: "Roboto";
-  font-weight: 600;
 }
 
 .introducao h1 {
-  font-size: 48px;
-  line-height: 1.125;
-  text-transform: uppercase;
   margin-bottom: 32px;
-  font-family: "Bebas Neue";
-  font-weight: 400;
 }
 
 .introducao-imagem {

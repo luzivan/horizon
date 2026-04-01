@@ -1,0 +1,37 @@
+.font-2-s {
+  font:
+    400 1rem/1.5 "Roboto",
+    sans-serif;
+}
+
+.font-2-s-b {
+  font:
+    600 1rem/1.5 "Roboto",
+    sans-serif;
+}
+
+.font-2-m {
+  font:
+    400 1.13rem/1.5 "Roboto",
+    sans-serif;
+}
+
+.font-2-m-b {
+  font:
+    600 1.13rem/1.5 "Roboto",
+    sans-serif;
+  text-transform: uppercase;
+}
+
+.font-2-l {
+  font:
+    600 2rem/1.25 "Roboto",
+    sans-serif;
+}
+
+.font-1-xl {
+  font:
+    400 3rem/1.15 "Bebas Neue",
+    sans-serif;
+  text-transform: uppercase;
+}
