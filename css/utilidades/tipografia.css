@@ -12,13 +12,13 @@
 
 .font-2-m {
   font:
-    400 1.13rem/1.5 "Roboto",
+    400 1.125rem/1.33 "Roboto",
     sans-serif;
 }
 
 .font-2-m-b {
   font:
-    600 1.13rem/1.5 "Roboto",
+    600 1.125rem/1.33 "Roboto",
     sans-serif;
   text-transform: uppercase;
 }

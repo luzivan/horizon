@@ -79,10 +79,14 @@
 
 @media (max-width: 600px) {
   .edicoes-itens img {
-    max-width: none;
+    max-width: 100%;
     max-height: none;
+    border-radius: 4px 4px 0 0;
   }
   .edicoes li {
     grid-template-columns: 1fr;
+  }
+  .edicoes p {
+    padding: 0 16px 8px 16px;
   }
 }
