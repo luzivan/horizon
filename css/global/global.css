@@ -2,6 +2,7 @@ body {
   margin: 0px;
   color: #17171a;
   font-family: Arial, Helvetica, sans-serif;
+  height: 2000px;
 }
 
 ul {
@@ -11,6 +12,9 @@ ul {
 }
 
 h1,
+h2,
+h3,
+ul,
 p,
 a {
   margin: 0px;

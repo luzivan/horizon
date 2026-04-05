@@ -8,10 +8,8 @@
   gap: 20px;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
-  padding: 12px 20px;
-  max-width: 1200px;
-  margin: 0 auto;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .header-menu {
@@ -31,11 +29,8 @@
 }
 
 .contagem {
-  box-sizing: border-box;
-  max-width: 1200px;
   align-items: center;
   justify-items: center;
-  margin: 0 auto;
 }
 
 .contagem p {
