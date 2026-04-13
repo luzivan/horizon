@@ -1,0 +1,29 @@
+.atracoes-bg {
+  background: var(--cor-0);
+}
+
+.atracoes h1 {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.atracoes img {
+  max-width: 260px;
+  border-radius: 4px 4px 0 0;
+  display: block;
+}
+
+.itens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding-bottom: 60px;
+}
+
+.itens h3 {
+  background: var(--cor-11);
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: center;
+  border-radius: 0 0 4px 4px;
+}
