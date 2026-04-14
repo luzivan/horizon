@@ -1,0 +1,70 @@
+.rodape-bg {
+  background: var(--cor-11);
+}
+
+.rodape {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  align-items: start;
+  justify-items: start;
+}
+
+.rodape h3 {
+  padding-bottom: 20px;
+  height: auto;
+}
+
+.rodape-marca img {
+  padding-bottom: 24px;
+}
+
+.rodape-paginas li,
+.rodape-contato li {
+  padding-bottom: 12px;
+}
+
+.rodape-paginas a,
+.rodape-contato a {
+  color: inherit;
+}
+
+.rodape-redes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0 20px;
+}
+
+.rodape-redes a {
+  width: 32px;
+  height: 32px;
+}
+
+.rodape-redes h3,
+.rodape-copy {
+  grid-column: 1/-1;
+}
+
+@media (max-width: 1200px) {
+  .rodape {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .rodape-marca {
+    grid-column: 1/-1;
+  }
+}
+
+@media (max-width: 700px) {
+  .rodape {
+    grid-template-columns: 1fr 1fr;
+  }
+  .rodape-paginas {
+    grid-row: 2/4;
+  }
+  .rodape-contato,
+  .rodape-redes {
+    grid-column: 2;
+  }
+}
