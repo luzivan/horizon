@@ -37,3 +37,10 @@
   background: var(--cor-p2);
   border-radius: 4px;
 }
+
+@media (max-width: 800px) {
+  .programacao-palco,
+  .programacao-arena {
+    grid-template-columns: 1fr;
+  }
+}
