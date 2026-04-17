@@ -1,3 +1,7 @@
+.programacao-bg {
+  background: var(--cor-0);
+}
+
 .programacao {
   padding-top: 60px;
   padding-bottom: 60px;
