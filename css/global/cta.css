@@ -11,3 +11,7 @@
   align-items: center;
   gap: 20px;
 }
+
+.cta h1 {
+  text-align: center;
+}
