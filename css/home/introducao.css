@@ -12,6 +12,16 @@
   align-self: center;
 }
 
+.introducao p::before {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url(../../img/icones/calendario.svg) no-repeat;
+  margin-right: 8px;
+  margin-bottom: -3px;
+}
+
 .introducao p {
   margin-bottom: 8px;
 }
